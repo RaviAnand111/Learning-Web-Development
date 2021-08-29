@@ -17,48 +17,53 @@
                 background-color: #F0F2F5;
                 
             }
-            
-            #facebook {
+           
+             #facebook {
                 
-                width: 280px;
+                width: 270px;
                 height: 100px;
-                margin-left: 410px;
-                padding-top: 200px;
-                margin-bottom: 0px;
+                 margin-top: 200px;
+                 position: absolute;
+                 margin-left: 400px;
+                 
+                
             }
             
-            #below_facebook{
+             #below_facebook{
                 
                 font-family: 'Hind Siliguri', sans-serif;
                 font-size: 28px;
-                width: 500px;
-                height: 100px;
-                margin: 0px 0px 0px 440px;
-                
+                 display: inline;
+                 position: absolute;
+                 width: 400px;
+                 margin-top: 290px;
+                 margin-left: 430px;
             }
             
-            
+
             
             form {
                 
-                width: 350px; 
-                height: 300px; 
+                width: 380px; 
+                height: 340px; 
                 background-color: #FFFFFF;
                 padding-top: 10px;
-                <--box-shadow: 0px 15px 20px rgba(0,0,0,0.1);-->
-                position: relative;
-                float: right;
+                box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+                position: absolute;
+                margin-top: 150px;
+                margin-left: 900px;
+                border-radius: 10px;
                 
                 
             }
             
             input {
                 
-                width: 300px;
-                height: 35px;
-                margin: 5px 20px;
+                width: 355px;
+                height: 51px;
+                margin: 5px 12px;
                 padding: 20px;
-                border: 0.01px solid grey;
+                border: 0.01px solid ;
                 font-size: 17.1px;
                 border-radius: 5px;
                 
@@ -66,9 +71,9 @@
             
             #login{
                 
-                width: 300px;
-                height: 35px;
-                margin: 5px 20px;
+                width: 355px;
+                height: 51px;
+                margin: 5px 12px;
                 border: 0.01px solid grey;
                 border-radius: 5px;
                 padding: 0px; 
@@ -76,6 +81,7 @@
                 font-weight: bold;
                 background: #166FE5;
                 color: white;
+                border-radius: 5px;
                 
             }
             
@@ -88,7 +94,7 @@
                 border-radius: 5px;
                 padding: 0px; 
                 margin-left: 79px;
-                margin-top: 13px;
+                margin-top: 20px;
                 font-size: 17.5px;
                 font-weight: bold;
                 background: #36A420;
@@ -107,6 +113,43 @@
                 
                 margin: 0;
                 padding: 0;
+                width: 1860;
+                display: inline;
+                
+            }
+            
+            #last_sentence {
+                
+                width: 400px;
+                font-family: 'Hind Siliguri', sans-serif;
+                position: absolute;
+                margin-top: 525px;
+                margin-left: 930px;
+                
+            }
+            
+            #bold {
+                
+                font-weight: bold;
+            }
+            
+            #footer_bar {
+                
+                width: 673px;
+                height: 19px;
+                padding-bottom: 10px;
+                border-bottom: 1px solid grey;
+                
+            }
+            
+            .horizon {
+                
+                width: 58px;
+                height: 100px;
+                position: relative; 
+                float: left; 
+                text-decoration:none;
+                color: grey;
                 
             }
             
@@ -117,12 +160,11 @@
     <body>
     
         <div id="main" >
-        
+                
             <img src="facebook.svg" id="facebook">
-   
-            <div id="below_facebook" >Facebook helps you connect and share with the people in your life.</div>
             
-        
+            <p id="below_facebook" >Facebook helps you connect and share with the people in your life.</p>
+            
             <form>
                 <input type="text" placeholder="Email address or phone number">
                 
@@ -143,7 +185,50 @@
             </form>
                  
          
+            <p id="last_sentence"> <span id="bold"> Create a page </span> for a celebrity, band or business.</p>
             
+            
+        </div>
+        
+        
+        <div id="footer_bar" >
+        
+            <a href=" " class="horizon"> English (UK)
+&nbsp;&nbsp;&nbsp;</a>
+             
+            <a href=" " class="horizon">  हिन्दी &nbsp;&nbsp;&nbsp;&nbsp;
+ </a>
+            
+            <a href=" " class="horizon"> ਪੰਜਾਬੀ &nbsp;&nbsp;&nbsp;&nbsp;
+</a>
+            
+            <a href=" " class="horizon">اردو &nbsp;&nbsp;&nbsp;&nbsp;</p>
+            
+              <a href=" " class="horizon">தமிழ் &nbsp;&nbsp;&nbsp;&nbsp;
+ </a>
+
+             <a href=" " class="horizon">বাংলা &nbsp;&nbsp;&nbsp;&nbsp;
+ </a>
+            
+            <a href=" " class="horizon">मराठी &nbsp;&nbsp;&nbsp;&nbsp;</p>
+            
+            <a href=" " class="horizon">తెలుగు &nbsp;&nbsp;&nbsp;&nbsp;
+ </a>
+            
+            <a href=" " class="horizon">ગુજરાતી &nbsp;&nbsp;&nbsp;&nbsp;
+ </a>
+            
+            <a href=" " class="horizon">ಕನ್ನಡ &nbsp;&nbsp;&nbsp;&nbsp;</p>
+            
+            <a href=" " class="horizon">മലയാളം &nbsp;&nbsp;&nbsp;&nbsp;</a>
+            
+            <a href=" "><span id="box"><p class="horizon">&#43; &nbsp;&nbsp;</p></span></a>
+            
+        </div>
+        
+        <div>
+        
+            <p class="horizon"> </p>
             
         </div>
         
@@ -151,3 +236,4 @@
     </body>
 
 </html>
+

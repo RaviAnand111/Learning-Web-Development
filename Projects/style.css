@@ -1,0 +1,69 @@
+body {
+  background-color: #faf8f8;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#heading {
+  text-align: center;
+  padding: 3%;
+  background: #e9e8e8;
+  font-size: 150%;
+}
+
+#my-form {
+  text-align: center;
+  background-color: #e9e8e8;
+  width: 70vw;
+  height: 30vh;
+  margin: auto;
+}
+
+h3 {
+  padding: 2vh;
+  font-size: 180%;
+  width: 10rem;
+  margin-bottom: 0;
+}
+
+label {
+  font-size: 20px;
+}
+
+#name {
+  margin: 10px;
+  height: 5%;
+  border-radius: 5px;
+}
+
+#email {
+  margin: 10px;
+  height: 2%;
+  border-radius: 5px;
+}
+
+#submit {
+  width: 250px;
+  height: 25px;
+  margin: 10px;
+
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+  background-color: black;
+}
+
+#list {
+  text-align: center;
+  list-style-type: none;
+}
+
+#msg {
+  margin: auto;
+  font-weight: bold;
+  padding: 6px;
+  width: 180px;
+  height: 18px;
+  background-color: red;
+  color: white;
+  visibility: hidden;
+}

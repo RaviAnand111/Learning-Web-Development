@@ -1,3 +1,11 @@
+ 'use strict';
+ 
+   let ravi = false;
+   const anand = true;
+   
+   if(anand == true) rav = true;
+   else anand = false;
+
 const submit = document.getElementById("submit");
 
 submit.addEventListener('click', onSubmit);

@@ -1,0 +1,47 @@
+body {
+  background: linear-gradient(-70deg, rgb(3, 250, 65), rgb(165, 248, 157)) fixed;
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  position: absolute;
+  background-color: white;
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 50px;
+  border: 0;
+  margin-left: 40vw;
+  margin-top: 30px;
+}
+
+.modal-bg {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(5, 5, 5, 0.5);
+}
+
+.modal-content {
+  margin-top: 20vh;
+  margin-left: 26%;
+  background-color: white;
+  width: 55vw;
+  height: fit-content;
+  font-size: 30px;
+  padding: 0.5px 10px 0 10px;
+  position: relative;
+  padding: 5px 15px;
+}
+
+.close {
+  font-size: 30px;
+  position: absolute;
+  top: 0;
+  right: 10px;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}

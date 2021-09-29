@@ -1,0 +1,45 @@
+body {
+  background-color: #22577a;
+}
+
+h1 {
+  font-family: "Lobster", sans-serif;
+  font-size: 10rem;
+  color: #57cc99;
+  text-align: center;
+  margin: 0;
+}
+
+.refresh-btn {
+  width: 12rem;
+  height: 4rem;
+  font-family: "Lobster", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  background-color: #7b36c9;
+  border-radius: 10px;
+  display: block;
+  margin: 3rem auto;
+}
+
+.refresh-btn a {
+  color: #84c936;
+  text-decoration: none;
+}
+.players {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.player-heading {
+  font-family: "Dancing Script", sans-serif;
+  font-size: 3.5rem;
+  font-weight: bolder;
+  color: #84c936;
+  text-align: center;
+}
+
+.dice-img {
+  width: 110%;
+}

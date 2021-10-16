@@ -4,3 +4,7 @@
 - HTML 
 - CSS
 - Javascript 
+- Bootstrap
+- Node JS
+- Express
+- React JS

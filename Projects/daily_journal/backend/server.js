@@ -1,12 +1,18 @@
 const express = require("express");
 const app = express();
 
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 9000;
 
-app.get("/", (req, res) => {
- res.send();
-})
 
+
+app.use(express.json());
+
+
+// All Routes 
+app.use(require("./Routes/auth"));
+
+
+// Server listening at port 9000
 app.listen(port, () => {
- console.log("Server running at port 5000");
+ console.log("Server running at port 9000");
 })
